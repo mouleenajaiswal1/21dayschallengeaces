@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>MY WEBPAGE</title>
+<head>
+<!--Add your code below-->
+<body>
+ <first>
+  <h1>MY INTEREST</h1>
+  <p>I am interested in variety of things:watching movies, playing chess,about good movies or good series?.Read these page.</p>
+</first>
+<second>
+  <h2> My top 5 favourite movies and series</h2>
+  <p>  I love thriller,romantic comedy and anime.Here are my top 5 movies and series.</p>
+  <h3><a href="https://en.wikipedia.org/wiki/Shutter_Island_(film)">Shutter island</a></h3>
+  <h3><a href="https://en.wikipedia.org/wiki/Inception">
+    Inception</a> </h3>
+  <h3><a href="https://en.wikipedia.org/wiki/Friends">
+    Friends</a></h3>
+  <h3><a href="https://en.wikipedia.org/wiki/The_Big_Bang_Theory">Big bang theory</a></h3>
+<h3><a href="https://en.wikipedia.org/wiki/5_Centimeters_per_Second">5 Centimeter per second</a></h3>
+  </second>
+<third>
+    <ol>My favourite food
+            <li>pastry</li>
+      <li>pancake</li>
+      <li>momos</li>
+      <li>pizza
+      <ol type="a">
+        <li>margherita</li>
+        <li>
+ tandoori paneer pizza</li>
+        </ol>
+     </li>
+    </ol>
+     </li>
+    </ol>
+    <ul>Countries I want to visit
+      <li><a href="https://en.wikipedia.org/wiki/United_States">US</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/Bhutan">Bhutan</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/South_Korea">South korea</a></li>
+    </ul>
+</third>
+<section>
+      <article>
+        <h2>Facts About Dogs</h2>
+        <p>
+        Dogs have a sense of time. It's been proven that they know the difference between a hour and five. If conditioned to, they can predict future events, such as regular walk times.
+        </p>
+      </article>
+      
+<aside>
+          <p>A study was conducted on dogs being away from their owners for varying hours and the studies show that dogs who were away from their owners the longest showed the greatest amount of affection!
+          </p> 
+        </aside> 
+</section>
+  <figure>
+   <img src="https://content.codecademy.com/courses/SemanticHTML/dogimage.jpeg">
+ <figcaption>This picture shows a dog.</figcaption>
+      </figure> 
+ <audio autoplay controls>
+      <source src="https://content.codecademy.com/courses/SemanticHTML/dogBarking.mp3" type="audio/mp3">
+      <video src="https://content.codecademy.com/courses/SemanticHTML/dog-video.mp4" controls>Video not supported</video>
+      <embed src="https://content.codecademy.com/courses/SemanticHTML/dog-on-beach.gif"/>
+      
+
+<fourth>
+    <table>
+      <tr>
+        <th>tea</th>
+        <th>coffee</th>
+        <th>cake</th>
+       </tr>
+      <tr>
+        <td> black tea</td>
+        <td>cappuccino</td>
+        <td>black forest</td>
+       </tr>
+      <tr>
+        <td> green tea </td>
+        <td>cold coffee</td>
+        <td>chocolate</td>
+      </tr>
+    </table>
+</fourth>
+   <main>
+        <h1>Sign Up</h1>
+      <p>Create an account:</p>
+      <form action="submission.html" method="GET">
+         
+        <label for="username">Username:</label>
+        <br>
+        <input id="username" name="username" type="text" minlength="3" maxlength="30" required pattern="[a-zA-Z0-9]+">
+        <br>
+        <label for="pw">Password:</label>
+        <br>
+        <input id="pw" name="pw" type="password"minlength="6" maxlength="15" required>
+        <br>
+        <input type="submit" value="Submit">
+      </form>
+ <form action="submission.html" method="POST">
+        <h1>Create a burger!</h1>
+					<section class="protein">
+          <label for="patty">What type of protein would you like?</label>
+    			<input type="text" name="patty" id="patty" minlength="3" maxlength="15"required>
+        </section>
+        <hr>
+        <section class="patties">
+          <label for="amount">How many patties would you like?</label>
+          <input type="number" name="amount" id="amount"min="1" max="5"required>
+        </section>
+        <hr>
+        <section class="cooked">
+          <label for="doneness">How do you want your patty cooked</label>
+          <br>
+          <span>Rare</span>
+          <input type="range" name="doneness" id="doneness" value="3" min="1" max="5">
+          <span>Well-Done</span>
+        </section>
+        <hr>
+        <section class="toppings">
+          <span>What toppings would you like?</span>
+          <br>
+          <input type="checkbox" name="topping" id="lettuce" value="lettuce">
+          <label for="lettuce">Lettuce</label>
+          <input type="checkbox" name="topping" id="tomato" value="tomato">
+          <label for="tomato">Tomato</label>
+          <input type="checkbox" name="topping" id="onion" value="onion">
+          <label for="onion">Onion</label>
+        </section>
+        <hr>
+        <section class="cheesy">
+          <span>Would you like to add cheese?</span>
+          <br>
+          <input type="radio" name="cheese" id="yes" value="yes">
+          <label for="yes">Yes</label>
+          <input type="radio" name="cheese" id="no" value="yes">
+          <label for="no">No</label>
+        </section>
+        <hr>
+        <section class="bun-type">
+          <label for="bun">What type of bun would you like?</label>
+          <select name="bun" id="bun">
+            <option value="sesame">Sesame</option>
+            <option value="potatoe">Potato</option>
+            <option value="pretzel">Pretzel</option>
+          </select>
+        </section>
+        <hr>
+        <section class="sauce-selection">
+          <label for="sauce">What type of sauce would you like?</label>
+          <input list="sauces" id="sauce" name="sauce">
+          <datalist id="sauces">
+            <option value="ketchup"></option>
+            <option value="mayo"></option>
+            <option value="mustard"></option>
+          </datalist>
+        </section>
+        <hr>
+        <section class="extra-info">
+          <label for="extra">Anything else you want to add?</label>
+          <br>
+          <textarea id="extra" name="extra" rows="3" cols="40" ></textarea>
+        </section>
+        <hr>
+
+        <section class="submission">
+          
+           <input type="submit" value="Submit">
+        </section>
+        <footer>
+        <p>Email me at mouli14112000@gmail.com</p>
+       </footer>
+      </form>
+ </main>
+</body>
+</html>
+        
