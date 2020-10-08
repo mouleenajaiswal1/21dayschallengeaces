@@ -14,10 +14,10 @@
 
 <!--Add your code below-->
 <body>
- <first>
+ <div class="first">
   <h1>MY INTEREST</h1>
   <p>I am interested in variety of things:watching movies, playing chess,about good movies or good series?.Read these page.</p>
-</first>
+ </div>
 <second>
   <h2> My top 5 favourite movies and series</h2>
   <p>  I love thriller,romantic comedy and anime.Here are my top 5 movies and series.</p>
