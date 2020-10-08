@@ -3,14 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>MY WEBPAGE</title>
 </head>
-<body>
-    <!DOCTYPE html>
-<html>
-<head>
-<title>MY WEBPAGE</title>
-<head>
+
 <!--Add your code below-->
 <body>
  <first>
@@ -50,27 +45,27 @@
     </ul>
 </third>
 <section>
-      <article>
-        <h2>Facts About Dogs</h2>
-        <p>
-        Dogs have a sense of time. It's been proven that they know the difference between a hour and five. If conditioned to, they can predict future events, such as regular walk times.
-        </p>
-      </article>
-      
+    <article>
+      <h2>Facts About Dogs</h2>
+      <p>
+      Dogs have a sense of time. It's been proven that they know the difference between a hour and five. If conditioned to, they can predict future events, such as regular walk times.
+      </p>
+    </article>
+    
 <aside>
-          <p>A study was conducted on dogs being away from their owners for varying hours and the studies show that dogs who were away from their owners the longest showed the greatest amount of affection!
-          </p> 
-        </aside> 
+        <p>A study was conducted on dogs being away from their owners for varying hours and the studies show that dogs who were away from their owners the longest showed the greatest amount of affection!
+        </p> 
+      </aside> 
 </section>
-  <figure>
-   <img src="https://content.codecademy.com/courses/SemanticHTML/dogimage.jpeg">
- <figcaption>This picture shows a dog.</figcaption>
-      </figure> 
- <audio autoplay controls>
-      <source src="https://content.codecademy.com/courses/SemanticHTML/dogBarking.mp3" type="audio/mp3">
-      <video src="https://content.codecademy.com/courses/SemanticHTML/dog-video.mp4" controls>Video not supported</video>
-      <embed src="https://content.codecademy.com/courses/SemanticHTML/dog-on-beach.gif"/>
-      
+<figure>
+ <img src="https://content.codecademy.com/courses/SemanticHTML/dogimage.jpeg">
+<figcaption>This picture shows a dog.</figcaption>
+    </figure> 
+<audio autoplay controls>
+    <source src="https://content.codecademy.com/courses/SemanticHTML/dogBarking.mp3" type="audio/mp3">
+    </audio> 
+    <video src="https://content.codecademy.com/courses/SemanticHTML/dog-video.mp4" controls>Video not supported</video>
+    <embed src="https://content.codecademy.com/courses/SemanticHTML/dog-on-beach.gif"/>
 
 <fourth>
     <table>
@@ -180,6 +175,8 @@
         <p>Email me at mouli14112000@gmail.com</p>
        </footer>
       </form>
+   
+        
  </main>
 
         
