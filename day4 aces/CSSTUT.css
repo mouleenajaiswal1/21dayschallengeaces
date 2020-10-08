@@ -1,0 +1,39 @@
+p{
+    border-radius: 2px black;
+    color:yellowgreen;
+   font-style: italic;
+    background-color: rosybrown;
+    
+}/
+/*id selector*/
+#redElement{
+    color:red;
+}
+#yellowElement{
+    color:yellow
+}
+/*class selector*/
+.pinkElement{
+    color:pink
+}
+/*class selector*/
+.bgBlue{
+    background-color: blue;
+}
+/*grouping selector*/
+footer,span{
+    background-color: green;
+}
+#dev{
+    color:black;
+    background-color:white ;
+}
+#fonts{
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',
+    Geneva, Verdana, sans-serif ;
+    color:black;
+    background-color:white ;
+    font-size:33px;
+    line-height: 1.3em;
+    font-weight: bold;
+}
