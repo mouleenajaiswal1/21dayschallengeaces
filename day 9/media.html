@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media queries</title>
+    <style>
+        .box{
+            text-align: center;
+            background-color: chocolate;
+            font-size: 72px;
+            color:white;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            display:none;  
+             }
+             @media  only screen and (max-width: 400px){
+               #box1{
+                   display:block;
+                   background-color: cornflowerblue;
+                   color: cornsilk;
+               }
+                 }
+            @media only screen and (min-width: 400px) and (max-width: 600px){
+
+                  #box2{
+                   display:block;
+                   background-color:hotpink;
+                   color: cornsilk;
+            }
+            }
+            @media only screen and (min-width: 600px) and (max-width: 800px){
+
+                   #box3{
+                    display:block;
+                    background-color: blueviolet;
+                     color: cornsilk;
+                      }
+            }
+            @media  only screen and (min-width: 800px){
+               #box4{
+                   display:block;
+                   background-color:cadetblue;
+                   color: cornsilk;
+               }
+                 }
+    </style>
+</head>
+<body>
+    <div class="box" id="box1">Mera oneplus</div><!--div.box#box1$*4-->
+    <div class="box" id="box2">Mera tablet</div>
+    <div class="box" id="box3">Mera computer</div>
+    <div class="box" id="box4">Mera wide-screen computer</div>
+   
+</body>
+</html>
